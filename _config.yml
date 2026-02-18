@@ -1,0 +1,11 @@
+title: "阪大将棋部HP"
+description: "阪大将棋部の公式ホームページです。"
+theme: minima
+markdown: kramdown
+header_pages:
+  - index.md
+  - about.md
+  - members.md
+  - events.md
+  - links.md
+  - contact.md

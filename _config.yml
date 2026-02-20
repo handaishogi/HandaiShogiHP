@@ -2,8 +2,10 @@ title: "阪大将棋部HP"
 description: "阪大将棋部の公式ホームページです。"
 theme: jekyll-theme-cayman
 markdown: kramdown
-nav:
-  - name: "トップ"
-    link: "/"
-  - name: "部員紹介"
-    link: "/members/"
+header_pages:
+  - index.md
+  - about.md
+  - members.md
+  - events.md
+  - links.md
+  - contact.md

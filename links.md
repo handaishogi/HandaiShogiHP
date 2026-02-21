@@ -13,6 +13,7 @@ layout: default
 <div style="flex: 1;">
 
 ### 小路優輝
+
 - 所属：基礎工学研究科  
 - 出身：兵庫県  
 - 師匠：白井竜太  

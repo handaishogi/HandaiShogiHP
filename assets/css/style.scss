@@ -4,6 +4,10 @@
 @import "{{ site.theme }}";
 .site-nav {
   margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;     /* ← これ重要 */
+  gap: 10px;
+  justify-content: center;
 }
 
 .site-nav a {
@@ -11,6 +15,7 @@
   text-decoration: none;
   color: white;
   font-weight: 600;
+  padding: 8px 12px;
 }
 
 .site-nav a:hover {

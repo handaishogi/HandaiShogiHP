@@ -2,31 +2,6 @@
 title: "部員紹介"
 layout: default
 ---
-<!-- ここからスタイル設定（CSS） -->
-<style>
-  /* 全体の枠組み */
-  .member-row {
-    display: flex;
-    flex-wrap: wrap; /* 重要：画面が狭いと自動で折り返す */
-    gap: 40px;       /* 左右の隙間 */
-    margin-bottom: 20px;
-  }
-
-  /* 左右のカラム */
-  .member-col {
-    flex: 1;           /* 均等に広がる */
-    min-width: 300px;  /* 幅が300px確保できなくなったら縦並びになる */
-  }
-
-  /* スマホ画面（幅が狭いとき）の微調整 */
-  @media (max-width: 768px) {
-    .member-row {
-      gap: 20px; /* スマホでは隙間を少し詰める */
-    }
-  }
-</style>
-<!-- ここまでスタイル設定 -->
-
 # 部員紹介
 
 ---

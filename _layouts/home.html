@@ -25,17 +25,17 @@
           </a>
 
           <a href="{{ '/members' | relative_url }}"
-            class="{% if page.url == '/members' %}active{% endif %}">
+            class="{% if page.url contains '/members' %}active{% endif %}">
             部員紹介
           </a>
 
           <a href="{{ '/events' | relative_url }}"
-            class="{% if page.url == '/events' %}active{% endif %}">
+            class="{% if page.url contains '/events' %}active{% endif %}">
             大会実績
           </a>
 
           <a href="{{ '/contact' | relative_url }}"
-            class="{% if page.url == '/contact' %}active{% endif %}">
+            class="{% if page.url contains '/contact' %}active{% endif %}">
             お問い合わせ
           </a>
         </nav>

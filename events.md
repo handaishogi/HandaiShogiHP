@@ -2,7 +2,7 @@
 title: "大会実績"
 layout: default
 ---
-
+{{ page.url }}
 # 大会結果
 ## 2024年度（令和6年度）
 

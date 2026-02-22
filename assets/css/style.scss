@@ -2,12 +2,14 @@
 ---
 
 @import "{{ site.theme }}";
+
 .site-nav {
   margin-top: 20px;
   display: flex;
-  flex-wrap: wrap;     /* ← これ重要 */
-  gap: 10px;
   justify-content: center;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 20px;
 }
 
 .site-nav a {

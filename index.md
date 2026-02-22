@@ -12,4 +12,3 @@ layout: home
 - 活動日時：定期活動日は水曜日と金曜日ですが、部室は毎日開放しています
 
 [公式X(旧twitter)](https://twitter.com/handaishogibu)や[ブログ](https://note.com/handai_shogi)もご覧ください。
-{{ page.url }}

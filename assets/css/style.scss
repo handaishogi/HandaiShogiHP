@@ -20,3 +20,14 @@
 .site-nav a.active {
   border-bottom: 3px solid white;
 }
+
+/* CSS側（assets/css/style.scss など） */
+.member-row {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap; /* これによりスマホで自動的に縦並びになります */
+}
+.member-col {
+  flex: 1;
+  min-width: 300px; /* 幅が狭くなりすぎたら折り返す設定 */
+}

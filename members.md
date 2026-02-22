@@ -2,9 +2,40 @@
 title: "部員紹介"
 layout: default
 ---
+<!-- ここからスタイル設定（CSS） -->
+<style>
+  /* 全体の枠組み */
+  .member-row {
+    display: flex;
+    flex-wrap: wrap; /* 重要：画面が狭いと自動で折り返す */
+    gap: 40px;       /* 左右の隙間 */
+    margin-bottom: 20px;
+  }
+
+  /* 左右のカラム */
+  .member-col {
+    flex: 1;           /* 均等に広がる */
+    min-width: 300px;  /* 幅が300px確保できなくなったら縦並びになる */
+  }
+
+  /* スマホ画面（幅が狭いとき）の微調整 */
+  @media (max-width: 768px) {
+    .member-row {
+      gap: 20px; /* スマホでは隙間を少し詰める */
+    }
+  }
+</style>
+<!-- ここまでスタイル設定 -->
+
 # 部員紹介
 
+---
+
 ## 6回生・修士2年生
+
+<div class="member-row">
+
+<div class="member-col" markdown="1">
 
 ### 小路優輝
 - 所属：基礎工学研究科  
@@ -23,6 +54,10 @@ layout: default
 - 出身：兵庫県  
 - 師匠：森本達也  
 - 特徴：変則将棋の普及に力を入れている  
+
+</div>
+
+<div class="member-col" markdown="1">
 
 ### 木村隼己
 - 所属：工学研究科  
@@ -45,9 +80,17 @@ layout: default
 - 出身：大阪府  
 - 特徴：物静かでプライベートは謎で包まれている  
 
+</div>
+
+</div>
+
 ---
 
 ## 5回生・修士1年生
+
+<div class="member-row">
+
+<div class="member-col" markdown="1">
 
 ### 石野達也
 - 所属：基礎工学部情報科学科  
@@ -65,6 +108,10 @@ layout: default
 - 出身：福井県  
 - 師匠：松村聖  
 - 特徴：イケメン，イケボ  
+
+</div>
+
+<div class="member-col" markdown="1">
 
 ### 河本和士
 - 所属：理学部化学科  
@@ -87,9 +134,17 @@ layout: default
 - 出身：鳥取県  
 - 特徴：名字の読み方は某元プロと同じ  
 
+</div>
+
+</div>
+
 ---
 
 ## 4回生
+
+<div class="member-row">
+
+<div class="member-col" markdown="1">
 
 ### 數﨑大樹
 - 所属：基礎工学部情報科学科  
@@ -101,6 +156,10 @@ layout: default
 - 出身：兵庫県  
 - 特徴：ゴルフ部と兼部中  
 
+</div>
+
+<div class="member-col" markdown="1">
+
 ### 出口正紘
 - 所属：工学部電子情報工学科  
 - 出身：？  
@@ -111,9 +170,17 @@ layout: default
 - 出身：京都府  
 - 特徴：帰ってきたKFC杯エース  
 
+</div>
+
+</div>
+
 ---
 
 ## 3回生
+
+<div class="member-row">
+
+<div class="member-col" markdown="1">
 
 ### 福田駿也
 - 所属：基礎工学部システム科学科  
@@ -135,6 +202,10 @@ layout: default
 - 所属：基礎工学部情報科学科  
 - 出身：大阪府  
 - 特徴：サイト管理者のうちの1人かつ幽霊部員  
+
+</div>
+
+<div class="member-col" markdown="1">
 
 ### 横山享汰
 - 所属：基礎工学部化学応用科学科  
@@ -167,15 +238,27 @@ layout: default
 - 出身：和歌山県  
 - 特徴：チェスの強豪，大量に兼部中  
 
+</div>
+
+</div>
+
 ---
 
 ## 2回生
+
+<div class="member-row">
+
+<div class="member-col" markdown="1">
 
 ### 上子悠太
 - 所属：工学部応用自然科学科  
 - 出身：富山県  
 - 師匠：高野莉旺  
 - 特徴：コマキ家の末っ子  
+
+</div>
+
+<div class="member-col" markdown="1">
 
 ### 西村侑真
 - 所属：理学部  
@@ -187,14 +270,26 @@ layout: default
 - 出身：鳥取県  
 - 特徴：？  
 
+</div>
+
+</div>
+
 ---
 
 ## 1回生（現在募集中！）
+
+<div class="member-row">
+
+<div class="member-col" markdown="1">
 
 ### 米山蓮
 - 所属：理学部生物科学科  
 - 出身：富山県  
 - 特徴：？  
+
+</div>
+
+<div class="member-col" markdown="1">
 
 ### 吉田充輝
 - 所属：法学部法学科  
@@ -205,3 +300,7 @@ layout: default
 - 所属：理学部物理学科  
 - 出身：広島県  
 - 特徴：？  
+
+</div>
+
+</div>

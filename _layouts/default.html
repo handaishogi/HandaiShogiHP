@@ -19,10 +19,25 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
         <nav class="site-nav">
-            <a href="{{ '/' | relative_url }}">ホーム</a>
-            <a href="{{ '/members' | relative_url }}">部員紹介</a>
-            <a href="{{ '/events' | relative_url }}">大会実績</a>
-            <a href="{{ '/contact' | relative_url }}">お問い合わせ</a>
+          <a href="{{ '/' | relative_url }}"
+            class="{% if page.url == '/' %}active{% endif %}">
+            トップ
+          </a>
+
+          <a href="{{ '/members' | relative_url }}"
+            class="{% if page.url == '/members' %}active{% endif %}">
+            部員紹介
+          </a>
+
+          <a href="{{ '/events' | relative_url }}"
+            class="{% if page.url == '/events' %}active{% endif %}">
+            大会実績
+          </a>
+
+          <a href="{{ '/contact' | relative_url }}"
+            class="{% if page.url == '/contact' %}active{% endif %}">
+            お問い合わせ
+          </a>
         </nav>
       {% if site.show_downloads %}
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>

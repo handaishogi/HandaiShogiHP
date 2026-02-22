@@ -1,5 +1,5 @@
 ---
-title: "大会結果"
+title: "大会実績"
 layout: default
 ---
 

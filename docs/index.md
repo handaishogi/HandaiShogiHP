@@ -1,5 +1,6 @@
 ---
-title: "トップ"
+title: "阪大将棋部HP"
+description: "阪大将棋部HPのトップページ"
 layout: default
 ---
 ![読み込み中です...](image/image.png)

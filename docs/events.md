@@ -1,5 +1,6 @@
 ---
 title: "大会実績"
+description: "大会実績の紹介"
 layout: default
 ---
 # 大会結果

@@ -1,5 +1,6 @@
 ---
 title: "部員紹介"
+description: "部員の紹介"
 layout: default
 ---
 # 部員紹介

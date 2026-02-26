@@ -8,8 +8,9 @@
 ```
 root/
 ├── contrib/　　　　　　　　　　　// 引継ぎ資料など
-│   ├── Markdownの使い方.md
 │   ├── commit_screen.png
+│   ├── Markdownの使い方.md
+│   ├── 仕事内容.md
 │   └── 引継ぎ.md     
 ├── docs/　　　　　　　　　　　　// webページ本体
 │   ├── _layouts/

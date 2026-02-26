@@ -1,16 +1,25 @@
 # HandaiShogiHP
 
 ## デプロイ方法
-pushするとデプロイされる．
+デプロイ（=webpageの作成）には[jekyll](https://docs.github.com/ja/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)を使用している．
+デプロイはコミットを`main`ブランチにpushするたびに行われる．
 
 ## ディレクトリ構造
-まだ分からない．`README.md`がホームディレクトリにある都合上，各ページの`*.md`は別のディレクトリにすべて保存しておく必要がありそう．`_config.yml`で設定すれば問題なさそう．
-
-數﨑の想定は以下の通り．
 ```
-━┳━━ docs：webページを構成する`.md`．
- ┣━━ contrib：引継ぎ資料類．
- ┗━━ figures：画像ファイル．`*.pdf`や`*.svg`などのベクター画像が望ましい．
+root/
+├── contrib/　　　　　　　　　　　// 引継ぎ資料など
+│   ├── Markdownの使い方.md
+│   ├── commit_screen.png
+│   └── 引継ぎ.md     
+├── docs/　　　　　　　　　　　　// webページ本体
+│   ├── _layouts/
+│   ├── assets/css/
+│   ├── image/                 // 画像ファイルを保存するディレクトリ
+│   ├── _config.yml
+│   ├── events.md　　　　　　　 // 過去の大会結果
+│   ├── index.md               // ホーム
+│   └── members.md             // 部員紹介
+└── README.md
 ```
 
 
@@ -24,3 +33,5 @@ pushするとデプロイされる．
 | `fix`  | 既存のファイルの一部を修正する |
 | `add`  | 新しいファイルを追加する |
 | `docs` | `README.md`などのwebページに関係ない`*.md`を変更する |
+
+（例）feat: add new members of shogi club to members.md

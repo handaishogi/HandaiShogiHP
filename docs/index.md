@@ -1,6 +1,6 @@
 ---
 title: "トップ"
-layout: home
+layout: default
 ---
 ![読み込み中です...](image/image.png)
 # <u>阪大将棋部へようこそ!</u>

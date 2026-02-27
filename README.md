@@ -11,7 +11,7 @@ root/
 │   ├── commit_screen.png
 │   ├── markdown-guide.md       // markdownの使い方
 │   ├── responsibilities.md     // 仕事内容
-│   └── handover.md // 引継ぎ方法    
+│   └── handover.md             // 引継ぎ方法    
 ├── docs/　　　　　　　　　　　　 // webページ本体
 │   ├── _layouts/
 │   ├── assets/css/

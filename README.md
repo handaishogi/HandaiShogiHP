@@ -9,17 +9,17 @@
 root/
 ├── contrib/　　　　　　　　　　　// 引継ぎ資料など
 │   ├── commit_screen.png
-│   ├── markdown-guide.md // markdownの使い方
-│   ├── responsibilities.md // 仕事内容
+│   ├── markdown-guide.md       // markdownの使い方
+│   ├── responsibilities.md     // 仕事内容
 │   └── handover.md // 引継ぎ方法    
-├── docs/　　　　　　　　　　　　// webページ本体
+├── docs/　　　　　　　　　　　　 // webページ本体
 │   ├── _layouts/
 │   ├── assets/css/
-│   ├── image/                 // 画像ファイルを保存するディレクトリ
+│   ├── image/                  // 画像ファイルを保存するディレクトリ
 │   ├── _config.yml
-│   ├── events.md　　　　　　　 // 過去の大会結果
-│   ├── index.md               // ホーム
-│   └── members.md             // 部員紹介
+│   ├── events.md　　　　　 　　 // 過去の大会結果
+│   ├── index.md                // ホーム
+│   └── members.md              // 部員紹介
 └── README.md
 ```
 

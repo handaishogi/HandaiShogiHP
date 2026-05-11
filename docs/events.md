@@ -8,6 +8,9 @@ layout: default
 
 ## 2025年度（令和7年度）
 
+<div class="member-row">
+
+<div class="member-col" markdown="1">
 ### 春期個人戦
 - 福田駿也　優勝
 - 谷口寛太　ベスト32
@@ -18,6 +21,10 @@ layout: default
 ### 学生名人戦(全国)
 - 福田駿也　ベスト8
 
+</div>
+
+<div class="member-col" markdown="1">
+
 ### 秋期個人戦
 - 上子悠太　ベスト8
 - 福田駿也　ベスト32
@@ -25,9 +32,18 @@ layout: default
 ### 秋期一軍戦
 - A級3位
 
+
+</div>
+
+</div>
+
 ---
 
 ## 2024年度（令和6年度）
+
+<div class="member-row">
+
+<div class="member-col" markdown="1">
 
 ### 春期個人戦
 - 福田駿也　ベスト16
@@ -40,6 +56,10 @@ layout: default
 ### 西日本大会
 - 福田駿也　ベスト8
 
+</div>
+
+<div class="member-col" markdown="1">
+
 ### 秋期個人戦
 - 高野莉旺　ベスト8
 - 谷口寛汰　ベスト32
@@ -47,9 +67,17 @@ layout: default
 ### 秋期一軍戦
 - A級4位
 
+</div>
+
+</div>
+
 ---
 
 ## 2023年度（令和5年度）
+
+<div class="member-row">
+
+<div class="member-col" markdown="1">
 
 ### 春期個人戦
 - 小路優輝　3位
@@ -64,6 +92,10 @@ layout: default
 ### 達人戦
 - 笠原聡士　2位
 
+</div>
+
+<div class="member-col" markdown="1">
+
 ### 秋期一軍戦
 - A級4位
 
@@ -76,9 +108,16 @@ layout: default
 ### 学生王座戦（全国）
 - 5位
 
+</div>
+
+</div>
+
 ---
 
 ## 2022年度（令和4年度）
+<div class="member-row">
+
+<div class="member-col" markdown="1">
 
 ### 春期個人戦
 - 笠原聡士　8位
@@ -90,6 +129,10 @@ layout: default
 ### 西日本学生名人戦
 - 笠原聡士　3位
 
+</div>
+
+<div class="member-col" markdown="1">
+
 ### 西日本団体対抗戦
 - 3位
 
@@ -98,3 +141,6 @@ layout: default
 
 ### 秋期一軍戦
 - A級3位
+
+</div>
+</div>
